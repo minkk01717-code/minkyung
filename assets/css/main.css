@@ -737,7 +737,7 @@ section,
   object-fit: cover;
   /* object-fit: none; */
   z-index: 1;
-  filter: blur(4px) brightness(100%);
+  filter: blur(3px);
   
 }
 
@@ -754,8 +754,15 @@ section,
   z-index: 3;
 }
 
-.hero h2 {
+/* .hero h2 {
   margin: 0;
+  font-size: 65px;
+  font-weight: 700;
+  
+} */
+
+.hero h2 {
+  margin-top: 100px;
   font-size: 65px;
   font-weight: 700;
   
@@ -1493,8 +1500,8 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
- width: 70%;
- margin-left: 15%;
+ width: 100%;
+ /* margin-left: 15%; */
 }
 
 .portfolio-details .swiper-wrapper {
