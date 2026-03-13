@@ -657,8 +657,13 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
+.page-title a {
+  color: var(--heading-color);
+}
 
-
+.page-title a:hover {
+  color: var(--kang-color);
+}
 
 
 /*--------------------------------------------------------------
@@ -859,7 +864,7 @@ section,
 }
 
 .about .about-me p {
-  font-size: 13px;
+  font-size: 14px;
   
 }
 
