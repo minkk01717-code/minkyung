@@ -1383,6 +1383,7 @@ section,
   margin: 0 auto 15px auto;
 }
 
+/* 원본 */
 .testimonials .swiper-wrapper {
   height: auto;
   display: inline-block;
@@ -1505,13 +1506,14 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
- width: 100%;
- /* margin-left: 15%; */
+ width: 80%;
+ margin-left: 10%;
 }
-
-.portfolio-details .swiper-wrapper {
+/* 원본 */
+/* .portfolio-details .swiper-wrapper {
   height: auto;
-}
+} */
+
 
 .portfolio-details .swiper-button-prev,
 .portfolio-details .swiper-button-next {
